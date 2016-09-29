@@ -1,0 +1,266 @@
+SQL
+Java
+Oracle
+Microsoft Windows
+JavaScript
+Microsoft SQL Server
+Agile
+Linux
+.NET
+HTML
+Unix
+SDLC
+XML
+Web services
+CSS
+CRM
+Automation
+C#
+C++
+Workflow
+Microsoft Visio
+Cloud
+MySQL
+Active Directory
+RDBMS
+Scrum
+SAP
+jQuery
+J2EE
+Microsoft SharePoint
+PL/SQL
+Cisco
+Microsoft Exchange
+RESTful
+Stored procedures
+ETL
+Python
+IBM
+ERP
+Ajax
+VMware
+Perl
+Firewall
+SOAP
+HTML5
+Microsoft Visual Studio
+Status reports
+PHP
+IBM DB2
+SOA
+Automated testing
+LAN
+Microsoft Project
+Visual Basic
+Shell scripting
+Apache HTTP Server
+TCP
+MVC
+Design patterns
+Microsoft IIS
+JSP
+R
+JSON
+iOS
+Android
+Apache Tomcat
+Salesforce.com
+WAN
+DNS
+Graphics
+Microsoft Windows 7
+Eclipse
+VPN
+JIRA
+ASP
+PeopleSoft
+Shell
+Git
+IBM WebSphere
+Oracle WebLogic
+UML
+Microsoft Windows Server
+Microsoft SSRS
+Microsoft SSIS
+Microsoft TFS
+Hibernate
+Business Objects
+SVN
+AngularJS
+Solaris
+Adobe Photoshop
+Amazon Web Services
+Visual Basic .NET
+Informatica
+Crystal Reports
+SAN
+VoIP
+Red Hat Linux
+Apache Maven
+SaaS
+Java Servlets
+WildFly
+UPS
+DHCP
+Microsoft Windows XP
+JUnit
+Big data
+Citrix
+JDBC
+Microsoft Windows Server 2003
+FTP
+XSLT
+Microsoft Windows Server 2008
+WCF
+Apache Struts
+Cluster
+BMC Remedy
+Apache Hadoop
+IBM AIX
+MDM
+JMS
+OS X
+LDAP
+Virtual machines
+Apache Ant
+Ruby
+SunOS
+SAS
+VBScript
+Windows PowerShell
+Microsoft Windows NT
+Jenkins
+IBM WebSphere MQ
+CVS
+Sybase
+Toad
+Selenium
+MI
+IBM Cognos
+IBM Rational
+Apache Subversion
+EDI
+MVC Framework
+Enterprise JavaBeans
+Bootstrap
+IDE
+ASP.NET
+HP QuickTest Professional
+Twitter
+Bash
+Siebel
+Backbone.js
+Internet Explorer
+SSL
+Teradata
+EMC
+MongoDB
+Microsoft technologies
+IBM Rational ClearCase
+WSDL
+COBOL
+DHTML
+ASP.NET MVC
+Six Sigma
+Adobe Flash
+Wireframe
+PMBOK
+PostgreSQL
+Microsoft Windows Vista
+Transact-SQL
+Adobe InDesign
+IBM System i
+CISSP
+NoSQL
+Adobe
+iPhone
+ERwin
+Adobe Illustrator
+VLAN
+Microsoft SCCM
+Facebook
+XSL
+JD Edwards
+Microsoft Windows 2000
+Apache Flex
+Entity Framework
+NAS
+MATLAB
+WPF
+Microsoft SSAS
+SSO
+OSPF
+SoapUI
+SAP MM
+XSD
+COM
+IBM Rational ClearQuest
+Tableau
+Adobe Dreamweaver
+HP Quality Center
+Oracle EBS
+SAP ERP
+SEO
+Red Hat Enterprise Linux
+LINQ
+WordPress
+XHTML
+IBM RUP
+Juniper
+Macros
+JavaServer Faces
+SNMP
+Spring MVC
+BPM
+ORM
+VMware vSphere
+ADO.NET
+PDF
+HP LoadRunner
+Facets
+Symantec
+Microsoft SQL Server DBA
+DOM
+IBM Notes
+Ruby on Rails
+iPad
+GitHub
+VBA
+SAP BI
+Linux administration
+SCM
+BlackBerry
+POS
+Cubes
+Responsive design
+Microsoft Windows 8
+Ubuntu
+NetApp
+Apex
+SAP ABAP
+Adobe CS
+CAD
+Secure Shell
+Apache Hive
+SAP FI
+ALM
+IBM WebSphere Application Server
+Data services
+IBM InfoSphere DataStage
+VMware ESX
+Microsoft Windows Azure
+AutoCAD
+JCL
+Machine learning
+Hyperion
+OBIEE
+OEM
+CentOS
+JPA
+Nexus
+Puppet
+MapReduce
+CA Workload Automation AE
+ESB
+LAMP
+3D computer graphics
