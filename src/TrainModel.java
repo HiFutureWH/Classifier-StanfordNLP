@@ -22,7 +22,7 @@ import opennlp.tools.util.PlainTextByLineStream;
 public class TrainModel {
 	static String onlpModelPath = "en-ner-tech.bin";
 	// training data set
-	static String trainingDataFilePath = "../job-requirements/job1-anno.txt";
+	static String trainingDataFilePath = "job1-a.txt";
 
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws IOException {

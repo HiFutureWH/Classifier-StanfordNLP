@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 
+import org.apache.commons.lang3.ArrayUtils;
 import org.apache.poi.hwpf.HWPFDocument;
 import org.apache.poi.hwpf.extractor.WordExtractor;
 
@@ -46,13 +47,25 @@ public class TechnologyDetector {
             
             //read in the list of technologies
             String[] alltechs = readTXT("Tech.txt");
-            // intersect alltechs and thistechs
-            //TODO address the the upper case and lower case problem
-            //TODO identify similar match, such as "hadoop" and "apache hadoop"
-            //TODO identify tech name longer than one word. such as "machine learning"
-            String[] thistechs = intersect(sentence, alltechs);
+            // intersect alltechs and our tokenized filedata
+
+            String[] singlewordtechs = intersect(alltechs, sentence);
+
+            //identify multiple tokens technologies. such as "machine learning". using N-grams
+            //##find two words technologies
+            // 1. generate two words N-grams
+            String[] ngramArray = generateNgrams(2, sentence);
+//            for(String s:ngramArray) System.out.println(s);
             
-        	System.out.println("-----------------TECHS FOUND--------------------");            
+            // 2. intersect ngramArray with alltechs to find two-word technologies
+            String[] twowordtechs = intersect(alltechs, ngramArray);
+//            for(String s:twowordtechs) System.out.println(s); //QA
+            
+            
+            // 3. concat two words techs list with the one word tech list
+            String[] thistechs = (String[])ArrayUtils.addAll(singlewordtechs, twowordtechs);
+            		
+            System.out.println("-----------------TECHS FOUND--------------------");            
             for(String s:thistechs){
             	System.out.println(s);
             }
@@ -144,8 +157,8 @@ public class TechnologyDetector {
 		perfMon.stopAndPrintFinalResult();
 	}
 	
-	//TODO: find location name
-	
+	//TODO: find location name, remove location so that SAN in san fracisco wont be recognized as tech Storage Area Network(SAN)
+	//TODO: remove year
 	public static String[] readTXT(String filename) throws FileNotFoundException {
 		Scanner sc = new Scanner(new File(filename));
 		List<String> lines = new ArrayList<String>();
@@ -160,18 +173,25 @@ public class TechnologyDetector {
 	}
 	
     public static String[] intersect(String[] arr1, String[] arr2){
+    	// please put original text as arr2
         List<String> l = new LinkedList<String>();
         Set<String> common = new HashSet<String>();                  
         for(String str:arr1){
-            if(!l.contains(str)){
-                l.add(str);
+            if(!l.contains(str.toLowerCase())){
+                l.add(str.toLowerCase());
+//                System.out.println("ngram added"); //QA
+//                System.out.println(str); //QA
             }
         }
         for(String str:arr2){
-            if(l.contains(str)){
+//            System.out.println(str); //QA
+        	if(l.contains(str.toLowerCase())){
                 common.add(str);
+//                System.out.println("match found"); //QA
+//                System.out.println(str); //QA
             }
         }
+//        System.out.println("---------------------"); //QA
         String[] result={};
         return common.toArray(result);
     }
@@ -193,5 +213,25 @@ public class TechnologyDetector {
 		    e.printStackTrace();
 		    System.out.println("No such file exists.");
 		}
+    }
+    
+    private static String[] generateNgrams(int N, String[] tokens){
+    	// int N is the number of words you want to generate for each line, it is 2 in this project
+    	// input tokenized tokens
+    	List<String> ngramList = new ArrayList<String>();
+    	for(int k=0; k<(tokens.length-N+1); k++){
+    		String s="";
+    		int start = k ;
+    		int end = k+N;
+    		for(int j=start; j<end; j++){
+    			s = s+ " " + tokens[j];
+    			s = s.trim(); // strip the leading space
+    		}
+    		//add n-gram to a list
+    		ngramList.add(s);
+    	}
+    	// convert List<String> into array
+    	String[] strarray = ngramList.toArray(new String[0]);
+    	return strarray;
     }
 }

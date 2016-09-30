@@ -20,7 +20,7 @@ C++
 Workflow
 Microsoft Visio
 Cloud
-MySQL
+mysql
 Active Directory
 RDBMS
 Scrum
@@ -34,7 +34,7 @@ Microsoft Exchange
 RESTful
 Stored procedures
 ETL
-Python
+python
 IBM
 ERP
 Ajax
@@ -44,6 +44,7 @@ Firewall
 SOAP
 HTML5
 Microsoft Visual Studio
+visual studio
 Status reports
 PHP
 IBM DB2
@@ -58,13 +59,16 @@ TCP
 MVC
 Design patterns
 Microsoft IIS
+IIS
 JSP
 R
 JSON
 iOS
 Android
 Apache Tomcat
+tomcat
 Salesforce.com
+salesforce
 WAN
 DNS
 Graphics
@@ -90,15 +94,19 @@ AngularJS
 Solaris
 Adobe Photoshop
 Amazon Web Services
+AWS
 Visual Basic .NET
 Informatica
 Crystal Reports
 SAN
 VoIP
 Red Hat Linux
+RHL
 Apache Maven
+maven
 SaaS
 Java Servlets
+servlet
 WildFly
 UPS
 DHCP
@@ -116,6 +124,7 @@ Apache Struts
 Cluster
 BMC Remedy
 Apache Hadoop
+hadoop
 IBM AIX
 MDM
 JMS
@@ -142,6 +151,7 @@ Apache Subversion
 EDI
 MVC Framework
 Enterprise JavaBeans
+javabeans
 Bootstrap
 IDE
 ASP.NET
@@ -223,6 +233,7 @@ Microsoft SQL Server DBA
 DOM
 IBM Notes
 Ruby on Rails
+ruby
 iPad
 GitHub
 VBA
@@ -264,3 +275,9 @@ CA Workload Automation AE
 ESB
 LAMP
 3D computer graphics
+pandas
+numpy
+sklearn
+scikit-learn
+numpy
+nltk
