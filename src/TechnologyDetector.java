@@ -33,7 +33,7 @@ public class TechnologyDetector {
         WordExtractor extractor = null;
         // read .doc file line by line
         try{
-            file = new File("../job-requirements/job1.doc");
+            file = new File("./job-requirements/job1.doc");
             String outputfile = "job1-a.txt";
             FileInputStream fis = new FileInputStream(file.getAbsolutePath());
             HWPFDocument document = new HWPFDocument(fis);
