@@ -21,7 +21,7 @@ public class myNER {
 	public static void main(String[] args){
 		//
 		try {
-			String paragraph = readDoc("job-requirements\\job5.doc");
+			String paragraph = readDoc("job-requirements/job2.doc");
 //			System.out.println(paragraph);
 			findName(paragraph);
 		} catch (IOException e) {
@@ -92,7 +92,7 @@ public class myNER {
 	public static String[] SentenceDetect(String paragraph) throws InvalidFormatException, 
 		IOException{
 		//	String paragraph = "Hi. How are you? This is Mike.";
-		InputStream is = new FileInputStream("nlpmodel\\en-sent.bin");
+		InputStream is = new FileInputStream("nlpmodel/en-sent.bin");
 		SentenceModel model = new SentenceModel(is);
 		SentenceDetectorME sdetector = new SentenceDetectorME(model);
 	
@@ -109,7 +109,7 @@ public class myNER {
 	//Tokenizer, break down sentences into single words
 	public static String[] Tokenize(String paragraph) throws InvalidFormatException,
 			IOException{
-		InputStream is = new FileInputStream("nlpmodel\\en-token.bin");
+		InputStream is = new FileInputStream("nlpmodel/en-token.bin");
 		TokenizerModel model = new TokenizerModel(is);
 		Tokenizer tokenizer = new TokenizerME(model);
 		String tokens[] = tokenizer.tokenize(paragraph);
