@@ -1,5 +1,5 @@
 Data Scientist -  <START:tech> Machine Learning <END> ,  <START:tech> R <END> ,  <START:tech> Python <END>  at CyberCoders
- <START:tech> San <END>  Francisco, CA 94102
+San Francisco, CA 94102
 
 About the Job
 We're a fast-paced, growing, and a downright cool Technology Company with tons of upside.
@@ -9,16 +9,16 @@ We are willing to offer excellent compensation packages including a base salary 
 Top Reasons to Work with Us
 - Challenge: The opportunity for growth in a fast-paced, progressive company is yours for the taking.
 Game on!
-- Monthly task stipend: Use the product youíre working on and outsource chores you donít want to do
+- Monthly task stipend: Use the product you‚Äôre working on and outsource chores you don‚Äôt want to do
 - Medical benefits: Great health coverage with dental and vision benefits, a flexible spending account, 401k plans and ample PTO
-- Education: A series of Lunch and Learn events (we call it ìLearnchî) along with mentoring opportunities and an annual learning and development stipend for your personal use
+- Education: A series of Lunch and Learn events (we call it ‚ÄúLearnch‚Äù) along with mentoring opportunities and an annual learning and development stipend for your personal use
 - Office: A huge, dog-friendly SOMA loft built to accommodate collaboration, with two fully- stocked kitchens and a game room.
 Free lunch every day!
 - Fun: Awesome off-site adventures, massages, ping-pong, and whiskey tastings?
 Yes!
 What You Will Be Doing
 As a Data Scientist, you will be presented with a variety of opportunities/challenges including:
-- conceiving, building and implementing predictive models of behavior for both sides of our marketplace
+- conceiving, building and implementing <START:tech> predictive models <END> of behavior for both sides of our marketplace
 - finding and creating opportunities for business growth through data analysis and modeling
 - testing and optimizing market parameters for optimal experiences for Clients, Taskers and the marketplace as a whole
 - collaborating with engineers on metrics instrumentation of our server and mobile stacks in order to collect and organize the data that powers our analytics
@@ -26,17 +26,17 @@ As a Data Scientist, you will be presented with a variety of opportunities/chall
 What You Need for this Position
 More Than 5 Years of experience and knowledge of:
 
-- PhD in a scientific discipline with a heavy numeric modeling and mathematics foundation: math, physics, bioinformatics, statistics; familiarity with  <START:tech> Python <END>  technology stack a must, as well as high interest in implementation and coding.
-- Advanced degree in computer science/engineering, with a background in  <START:tech> machine learning <END> , predictive models, classification, data mining
+- PhD in a scientific discipline with a heavy numeric modeling and mathematics foundation: math, physics, bioinformatics, statistics; familiarity with <START:tech> Python <END> technology stack a must, as well as high interest in implementation and coding.
+- Advanced degree in computer science/engineering, with a background in <START:tech> machine learning <END> , <START:tech> predictive models <END> , <START:tech> classification <END> , <START:tech> data mining <END> 
 - Advanced degree or 5 years industry experience in social science with a strong computational or quantitative foundation.
 Hands-on experience with statistical modeling tools, and some exposure to the tools and technologies in the previous section are also required.
--  <START:tech> Machine Learning <END> 
--  <START:tech> R <END> 
--  <START:tech> Python <END> 
--  <START:tech> Pandas <END> ,  <START:tech> Numpy <END> ,  <START:tech> Sklearn <END> , and  <START:tech> Nltk <END> 
-- Looker
--  <START:tech> MySQL <END> 
--  <START:tech> Hadoop <END>  Clusters
--  <START:tech> Microsoft Visio <END> 
+- <START:tech> Machine Learning <END> 
+- <START:tech> R <END> 
+- <START:tech> Python <END> 
+- <START:tech> Pandas <END> , <START:tech> Numpy <END> , <START:tech> Sklearn <END> , and <START:tech> Nltk <END> 
+- <START:tech> Looker <END> 
+- <START:tech> MySQL <END> 
+- <START:tech> Hadoop Clusters <END>
 
 So, if you are a Data Scientist looking to grow within an exciting organization, please apply today!
+
