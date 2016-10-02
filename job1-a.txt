@@ -1,13 +1,13 @@
-Data Scientist - Machine Learning,  <START:tech> R <END> ,  <START:tech> Python <END>  at CyberCoders
-San Francisco, CA 94102
+Data Scientist -  <START:tech> Machine Learning <END> ,  <START:tech> R <END> ,  <START:tech> Python <END>  at CyberCoders
+ <START:tech> San <END>  Francisco, CA 94102
 
 About the Job
-START_SECTION_1We're a fast-paced, growing, and a downright cool Technology Company with tons of upside.
+We're a fast-paced, growing, and a downright cool Technology Company with tons of upside.
 We keep growing... and growing... and growing; hence, the need for someone like you.
 We're currently looking to hire a full-time Data Scientist to join our team.
-We are willing to offer excellent compensation packages including a base salary that ranges between $100K-$175K, Bonus, Benefits, etcEND_SECTION_1
+We are willing to offer excellent compensation packages including a base salary that ranges between $100K-$175K, Bonus, Benefits, etc
 Top Reasons to Work with Us
-START_SECTION_2- Challenge: The opportunity for growth in a fast-paced, progressive company is yours for the taking.
+- Challenge: The opportunity for growth in a fast-paced, progressive company is yours for the taking.
 Game on!
 - Monthly task stipend: Use the product you’re working on and outsource chores you don’t want to do
 - Medical benefits: Great health coverage with dental and vision benefits, a flexible spending account, 401k plans and ample PTO
@@ -15,27 +15,28 @@ Game on!
 - Office: A huge, dog-friendly SOMA loft built to accommodate collaboration, with two fully- stocked kitchens and a game room.
 Free lunch every day!
 - Fun: Awesome off-site adventures, massages, ping-pong, and whiskey tastings?
-Yes!END_SECTION_2
+Yes!
 What You Will Be Doing
-START_SECTION_5As a Data Scientist, you will be presented with a variety of opportunities/challenges including:
+As a Data Scientist, you will be presented with a variety of opportunities/challenges including:
 - conceiving, building and implementing predictive models of behavior for both sides of our marketplace
 - finding and creating opportunities for business growth through data analysis and modeling
 - testing and optimizing market parameters for optimal experiences for Clients, Taskers and the marketplace as a whole
 - collaborating with engineers on metrics instrumentation of our server and mobile stacks in order to collect and organize the data that powers our analytics
-- informing both strategic thinking and tactical decision-making by way of insights gleaned from deep data analysis and interpretationEND_SECTION_5
+- informing both strategic thinking and tactical decision-making by way of insights gleaned from deep data analysis and interpretation
 What You Need for this Position
-START_SECTION_7More Than 5 Years of experience and knowledge of:
+More Than 5 Years of experience and knowledge of:
 
 - PhD in a scientific discipline with a heavy numeric modeling and mathematics foundation: math, physics, bioinformatics, statistics; familiarity with  <START:tech> Python <END>  technology stack a must, as well as high interest in implementation and coding.
-- Advanced degree in computer science/engineering, with a background in machine learning, predictive models, classification, data mining
+- Advanced degree in computer science/engineering, with a background in  <START:tech> machine learning <END> , predictive models, classification, data mining
 - Advanced degree or 5 years industry experience in social science with a strong computational or quantitative foundation.
 Hands-on experience with statistical modeling tools, and some exposure to the tools and technologies in the previous section are also required.
-- Machine Learning
+-  <START:tech> Machine Learning <END> 
 -  <START:tech> R <END> 
 -  <START:tech> Python <END> 
-- Pandas, Numpy, Sklearn, and Nltk
+-  <START:tech> Pandas <END> ,  <START:tech> Numpy <END> ,  <START:tech> Sklearn <END> , and  <START:tech> Nltk <END> 
 - Looker
 -  <START:tech> MySQL <END> 
-- Hadoop ClustersEND_SECTION_7
-START_SECTION_8END_SECTION_8
-START_SECTION_9So, if you are a Data Scientist looking to grow within an exciting organization, please apply today!
+-  <START:tech> Hadoop <END>  Clusters
+-  <START:tech> Microsoft Visio <END> 
+
+So, if you are a Data Scientist looking to grow within an exciting organization, please apply today!

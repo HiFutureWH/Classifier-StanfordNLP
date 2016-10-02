@@ -19,13 +19,13 @@ import opennlp.tools.util.Span;
 
 public class myNER {
 	public static void main(String[] args){
-		//TODO
+		//
 		try {
-			String paragraph = readDoc("../job-requirements/job2.doc");
+			String paragraph = readDoc("job-requirements/job2.doc");
 //			System.out.println(paragraph);
 			findName(paragraph);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			//  Auto-generated catch block
 			e.printStackTrace();
 		}
 
@@ -50,10 +50,15 @@ public class myNER {
 	    	
 	    	//3. print techs
 	    	for( int i = 0; i<nameSpans.length; i++) {
-	    		if(spanProbs[i] > 0.9){
+	    		if(spanProbs[i] > 0.8){
 //	    			System.out.println("Span: "+nameSpans[i].toString());
-	    			System.out.println("tech: "+sentence[nameSpans[i].getStart()] + " " + sentence[nameSpans[i].getStart()+1]);
-//	    			System.out.println("Prob: "+spanProbs[i].round());
+	    			String techname = sentence[nameSpans[i].getStart()] + " " + sentence[nameSpans[i].getStart()+1];
+	    			techname = sentence[nameSpans[i].getStart()] + " " + sentence[nameSpans[i].getStart()+1];
+	    			//TODO remove the  spece and , from the results
+//	    			if(techname.matches("* ,$"))
+//						techname = techname.matches("^*");
+	    			System.out.println("tech: "+techname);
+//	    			System.out.println("Prob: "+spanProbs[i]);
 	    		}
 	    	}	
 		}
@@ -87,7 +92,7 @@ public class myNER {
 	public static String[] SentenceDetect(String paragraph) throws InvalidFormatException, 
 		IOException{
 		//	String paragraph = "Hi. How are you? This is Mike.";
-		InputStream is = new FileInputStream("./nlpmodel/en-sent.bin");
+		InputStream is = new FileInputStream("nlpmodel/en-sent.bin");
 		SentenceModel model = new SentenceModel(is);
 		SentenceDetectorME sdetector = new SentenceDetectorME(model);
 	
@@ -104,7 +109,7 @@ public class myNER {
 	//Tokenizer, break down sentences into single words
 	public static String[] Tokenize(String paragraph) throws InvalidFormatException,
 			IOException{
-		InputStream is = new FileInputStream("./nlpmodel/en-token.bin");
+		InputStream is = new FileInputStream("nlpmodel/en-token.bin");
 		TokenizerModel model = new TokenizerModel(is);
 		Tokenizer tokenizer = new TokenizerME(model);
 		String tokens[] = tokenizer.tokenize(paragraph);
